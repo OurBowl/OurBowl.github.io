@@ -44,8 +44,23 @@
 
     <!--Document Body-->
     <body>
+      <h1 id=ipText></h1>
 
     </body>
+    <script>
+      let xhr = new XMLHttpRequest();
+      xhr.open('GET', "https://scibowldb.com/api/questions/random", true);
+      xhr.send();
+
+      xhr.onreadystatechange = processRequest;
+
+      function processRequest(e) {
+        if (xhr.readyState == 4 && xhr.status == 200) {
+          let response = JSON.parse(xhr.responseText);
+          document.querySelector("#ipText").innerHTML = response.tossup_answer;
+        }
+      }
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </html>
