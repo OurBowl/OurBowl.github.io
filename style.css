@@ -1,20 +1,40 @@
-
-table {
-    margin: auto;
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-th, td {
-    border: 3px solid black;
-    border-collapse: collapse;
-    padding: 7px;
-    font-size: medium;
+.i1 {
+    text-indent: 45px;
 
-  }
-
-h3 {
-    margin-left: 30px;
 }
 
-li {
-    margin-left: 40px;
+.i2 {
+    text-indent: 90px;
+}
+
+.i3 {
+    text-indent: 135px;
+}
+
+.i4 {
+    text-indent: 180px;
+}
+
+.title {
+    font-size: 64px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.topic {
+    font-size: 48px;
+    padding: 5px;
+}
+
+.subtopic {
+    font-size: 42px;
+    padding: 3px;
+}
+
+.article {
+    font-size: 26;
 }
