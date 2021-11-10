@@ -1,0 +1,81 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+/*Indentation*/
+
+.i1 {
+    text-indent: 55px;
+
+}
+
+.i2 {
+    text-indent: 110px;
+}
+
+.i3 {
+    text-indent: 165px;
+}
+
+.i4 {
+    text-indent: 220px;
+}
+
+.title {
+    font-size: 64px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.topic {
+    font-size: 48px;
+    padding: 5px;
+}
+
+.subtopic {
+    font-size: 42px;
+    padding: 3px;
+}
+
+.article {
+    font-size: 26;
+<<<<<<< Updated upstream
+}
+=======
+}
+
+
+
+
+
+/*Hexagon*/
+ul.dash {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1em;
+}
+ul.dash > li:before {
+    display: inline-block;
+    content: "⬡";
+    width: 1em;
+    margin-left: -1em;
+}
+.hehe {
+    font-size: 48px;
+}
+
+
+
+
+/*iframe*/
+.doc-center {
+    display: flex; 
+    justify-content: center; 
+}
+
+
+
+>>>>>>> Stashed changes
